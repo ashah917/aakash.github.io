@@ -120,47 +120,6 @@ section {
   .footer .text p {
     font-size: 14px; }
 
-.intro {
-  height: 100%;
-  position: relative;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  background: url("../img/intro-bg.jpg") no-repeat center center;
-  background-size: cover;
-  z-index: -5; }
-
-.intro-overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url("../img/intro-overlay.png") no-repeat center center;
-  background-size: cover;
-  z-index: -3; }
-  @media (max-device-width: 720), (max-width: 720px) {
-    .intro-overlay {
-      background: none;
-      background-color: rgba(235, 241, 245, 0.8); } }
-
-.intro-accent {
-  display: block;
-  padding-top: 5px;
-  margin-left: 3px;
-  color: #282828; }
-
-.intro-box {
-  display: none;
-  margin-left: 10%; }
-  @media (max-device-width: 720), (max-width: 720px) {
-    .intro-box {
-      padding: 10px;
-      margin: 0 auto;
-      text-align: center; } }
-
 .content .title {
   width: 90%;
   margin: 0 auto;
@@ -177,46 +136,3 @@ section {
   width: 220px;
   text-align: center; }
 
-nav {
-  width: 100%;
-  height: 75px;
-  opacity: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  z-index: 4; }
-  nav .menu {
-    margin-right: 75px; }
-  nav a {
-    display: inline-block;
-    margin: 15px; }
-    nav a span {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-      color: #26335D;
-      -webkit-transition: all 0.25s ease-in-out;
-      -o-transition: all 0.25s ease-in-out;
-      transition: all 0.25s ease-in-out; }
-    nav a:hover span {
-      color: #9395B4 !important; }
-
-#nav-icon {
-  position: fixed;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-  z-index: 5; }
-
-#nav-logo {
-  position: fixed;
-  top: 25px;
-  left: 25px;
-  cursor: pointer;
-  z-index: 5; }
