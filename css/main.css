@@ -1,4 +1,8 @@
 /* body styles */
+html {
+    background-color: #dedddd6e;
+    opacity: 40%;
+}
 body {
     margin: 50px;
     padding: 5px;
@@ -8,6 +12,8 @@ body {
 .name-container {
     font-size: 42px;
     font-weight: bold;
+    color: #C66969;
+    width: 100%;
 }
 
 
